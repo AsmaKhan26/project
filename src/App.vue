@@ -1,16 +1,12 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <router-view /> <!-- Utilisation de la balise router-view pour afficher le composant correspondant à la route actuelle -->
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
